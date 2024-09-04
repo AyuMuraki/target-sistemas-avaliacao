@@ -129,7 +129,6 @@ namespace Target_v1.Controllers
             char[] caracteres = str.ToCharArray();
             int inicio = 0;
             int fim = caracteres.Length - 1;
-
             while (inicio < fim)
             {
                 char temp = caracteres[inicio];
